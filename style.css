@@ -1,0 +1,72 @@
+#addTitle {
+    display: block;
+}
+
+#trip {
+    font-size: 40px;
+    text-align: center;
+}
+
+#showTitle {
+    display: block;
+}
+
+#addPersonButton {
+    display: none;
+}
+
+#peopleLabel {
+    display: none;
+}
+
+#showPerson {
+    display: none;
+}
+
+#addPerson {
+    display: none;
+}
+
+#peopleLabel {
+    display: none;
+}
+
+#addExpenseButton {
+    display: none;
+}
+
+#showExpense {
+    display: none;
+}
+
+#paidByLabel {
+    display: none;
+}
+
+#usedByLabel {
+    display: none;
+}
+
+#addExpense {
+    display: none;
+}
+
+#showPrice {
+    display: none;
+}
+
+#expenseLabel {
+    display: none;
+}
+
+#showBalance {
+    display: none;
+}
+
+#balanceLabel {
+    display: none;
+}
+
+#balanceList {
+    display: none;
+}

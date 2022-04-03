@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>Tricount</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <input type="text" id="showTitle" placeholder="Enter trip's name">
+        <button type="button" id="addTitle" onclick="addTitle()">Add</button>
+        <label id="trip"></label>
+        <section>
+            <button type="button" id="addPersonButton" onclick="showPersonInput()">Add New Person</button>
+            <input type="text" id="showPerson" placeholder="Enter name">
+            <button type="button" id="addPerson" onclick="addPerson()">Add</button>
+        </section>
+        <label id="peopleLabel">People:</label>
+        <ul id="peopleList"></ul>
+        <section>
+            <button type="button" id="addExpenseButton" onclick="addExpense()">Add New Expense</button>
+            <input type="text" id="showExpense" placeholder="Enter title">
+            <label id="paidByLabel">Paid by:</label>
+            <div id="checkboxes"></div>
+            <label id="usedByLabel">Used by:</label>
+            <div id="checkboxes2"></div>
+            <input type="text" id="showPrice" placeholder="Enter price">
+            <button type="button" id="addExpense" onclick="addNewExpense()">Add New Expense</button>
+        </section>
+        <label id="expenseLabel">Expenses:</label>
+        <ul id="expenseList"></ul>
+        <button type="button" id="showBalance" onclick="showBalance()">Show Balance</button>
+        <label id="balanceLabel">Balance:</label>
+        <ul id="balanceList"></ul>
+        <script src="index.js"></script>
+    </body>
+</html>
